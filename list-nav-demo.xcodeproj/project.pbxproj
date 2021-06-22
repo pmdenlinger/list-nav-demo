@@ -15,6 +15,7 @@
 		CE613689268286B60054A6C8 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE613688268286B60054A6C8 /* Car.swift */; };
 		CE61368B268287640054A6C8 /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61368A268287640054A6C8 /* CarData.swift */; };
 		CE61368D26828A860054A6C8 /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61368C26828A860054A6C8 /* CarStore.swift */; };
+		CE61368F26828FE30054A6C8 /* CarDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61368E26828FE10054A6C8 /* CarDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CE613688268286B60054A6C8 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		CE61368A268287640054A6C8 /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
 		CE61368C26828A860054A6C8 /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
+		CE61368E26828FE10054A6C8 /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				CE613688268286B60054A6C8 /* Car.swift */,
 				CE61368A268287640054A6C8 /* CarData.swift */,
 				CE61368C26828A860054A6C8 /* CarStore.swift */,
+				CE61368E26828FE10054A6C8 /* CarDetail.swift */,
 			);
 			path = "list-nav-demo";
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				CE61368B268287640054A6C8 /* CarData.swift in Sources */,
 				CE61367A2682850A0054A6C8 /* ContentView.swift in Sources */,
 				CE6136782682850A0054A6C8 /* list_nav_demoApp.swift in Sources */,
+				CE61368F26828FE30054A6C8 /* CarDetail.swift in Sources */,
 				CE613689268286B60054A6C8 /* Car.swift in Sources */,
 				CE61368D26828A860054A6C8 /* CarStore.swift in Sources */,
 			);
