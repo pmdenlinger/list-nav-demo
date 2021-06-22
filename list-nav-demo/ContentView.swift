@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var carStore: CarStore = CarStore(cars: carData)
+    
     var body: some View {
         Text("Hello, world!")
             .padding()
