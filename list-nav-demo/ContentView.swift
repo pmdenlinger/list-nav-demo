@@ -19,6 +19,12 @@ struct ContentView: View {
                     ListCell(car: car)
                 }
             }
+            .navigationBarTitle(Text("EV Cars"))
+            .navigationBarItems(leading: NavigationLink(destination: AddNewCar(carStore: self.carStore)) {
+                Text("Add")
+                    .foregroundColor(.blue)
+            }, trailing: EditButton())
+            }
     }
 }
 
@@ -46,4 +52,4 @@ struct ListCell: View {
     }
 }
 }
-}
+
